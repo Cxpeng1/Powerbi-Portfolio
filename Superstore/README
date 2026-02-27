@@ -1,1 +1,26 @@
+Business Questions:
+1. Which states and cities are generating the highest revenue?
+2. Which product category is both the best-selling and the most profitable?
+3. Which product sub-categories and specific products are top performers as well as those that are underperforming?
+4. Are there products that are frequently bought together?
+5. Which customer segment is bringing in the most profit?
+6. What is the most preferred shipping mode among our customers?
+7. How has the company's performance trended over recent months?
+8. What are the KPIs?
+
+Data processing step:
+- Check Data Types
+- Check for Null Values
+- Check for Duplicates
+- Check Negative Profit
+- Check Discount Column
+- Create Clean Date Table
+- Created a separate Date Table using DAX instead of using the Order Date column directly. The table includes Year, Month, Quarter, and 
+- Year-Month fields and is linked to the Orders table with a one-to-many relationship.
+- This allows proper time analysis (e.g., Month-over-Month growth), ensures continuous date tracking, and follows star schema.
+
+
+
+
+
 

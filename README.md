@@ -33,19 +33,11 @@ This project analyzes multi-year retail transactional data to deliver executive-
 - Revenue & profit trends
 - Product performance analysis
 - Customer segment profitability
-- Geographic revenue analysis
 - Loss-making product identification
 - Strategic business recommendations
 
 📂 View Project:  
 [View Superstore Dashboard](./Superstore)
-
----
-
-## 👨‍💻 About Me
-
-I am a Data Science graduate passionate about transforming raw data into meaningful business insights.  
-My focus areas include data visualization, business intelligence, and analytical problem-solving.
 
 ---
 

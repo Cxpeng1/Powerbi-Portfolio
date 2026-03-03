@@ -1,26 +1,96 @@
-Business Questions:
-1. Which states and cities are generating the highest revenue?
-2. Which product category is both the best-selling and the most profitable?
-3. Which product sub-categories and specific products are top performers as well as those that are underperforming?
-4. Are there products that are frequently bought together?
-5. Which customer segment is bringing in the most profit?
-6. What is the most preferred shipping mode among our customers?
-7. How has the company's performance trended over recent months?
-8. What are the KPIs?
+# 📊 Superstore Sales Performance Dashboard
 
-Data processing step:
-- Check Data Types
-- Check for Null Values
-- Check for Duplicates
-- Check Negative Profit
-- Check Discount Column
-- Create Clean Date Table
-- Created a separate Date Table using DAX instead of using the Order Date column directly. The table includes Year, Month, Quarter, and 
-- Year-Month fields and is linked to the Orders table with a one-to-many relationship.
-- This allows proper time analysis (e.g., Month-over-Month growth), ensures continuous date tracking, and follows star schema.
+## 📌 Project Overview
+
+This project analyzes retail sales performance using the Superstore dataset.  
+The objective is to transform raw transactional data into actionable business insights using Power BI.
+
+The dashboard progresses from high-level KPIs to detailed product, customer, geographic, and strategic insights.
+
+---
+
+## 🎯 Business Objectives
+
+This dashboard answers the following key business questions:
+
+- Which states and cities generate the highest revenue?
+- Which product categories are both best-selling and most profitable?
+- Which sub-categories and products are underperforming?
+- Which customer segment contributes the most profit?
+- What is the most preferred shipping mode?
+- How has company performance trended over time?
+- Where are the key risks and growth opportunities?
+
+---
+
+## 🗂 Dataset
+
+- **Source:** Superstore retail dataset  
+- **Granularity:** Transaction-level data  
+- **Time Range:** Multi-year historical data  
+
+---
+
+## 🧹 Data Processing & Modeling
+
+### ✔ Data Validation
+- Verified correct data types
+- Checked for null values
+- Reviewed duplicates
+- Identified negative profit transactions
+- Validated discount column consistency
+
+### ✔ Data Modeling (Star Schema)
+- Created a separate **Date Table** using DAX
+- Included:
+  - Year
+  - Month
+  - Quarter
+  - Year-Month
+- Established a one-to-many relationship with the Orders table
+- Marked as official Date Table
+
+This enables:
+- Time intelligence (YoY growth, trend analysis)
+- Continuous date tracking
+- Best practice data modeling
+
+---
+
+## 📈 Dashboard Structure
+
+### 1️⃣ Overview
+- Total Revenue
+- Total Profit
+- Profit Margin %
+- Total Orders
+- Revenue & Profit Trend
+- Sales by Category
+- Sales by State (Map)
+![Overview Dashboard](assets/overview.png)
+---
+
+### 2️⃣ Product Performance
+**Focus:** Identify top performers and profitability risks.
+- Top 3 Sub-Categories
+- Top 10 Loss-Making Products
+- Profit Margin by Sub-Category
+- Revenue vs Profit Scatter Analysis
+![Product Dashboard](assets/Product_Performance.png)
+---
+
+### 3️⃣ Customer & Operational Insights
+**Focus:** Customer profitability and operational behavior.
+- Segment Sales & Profit Trends
+- Top 10 Customers by Revenue
+- Profit Margin by Segment
+- Shipping Mode Analys
+![Insights Dashboard](assets/Insights.png)
+---
 
 
+## 👨‍💻 Author
 
-
-
-
+**Chan Xu Peng**  
+**Date:3/3/2026**
+---

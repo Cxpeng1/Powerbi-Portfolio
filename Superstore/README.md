@@ -67,7 +67,7 @@ This enables:
 - Revenue & Profit Trend
 - Sales by Category
 - Sales by State (Map)
-![Overview Dashboard](assets/overview.png)
+![Overview Dashboard](assets/Overview.png)
 ---
 
 ### 2️⃣ Product Performance
